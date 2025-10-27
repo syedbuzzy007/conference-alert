@@ -18,11 +18,8 @@
       },
       "edgeToEdgeEnabled": true,
       "package": "com.anonymous.conferencealert",
-      "googleServicesFile": "./android/app/google-services.json",
       "useNextNotificationsApi": true,
-      "permissions": [
-        "POST_NOTIFICATIONS"
-      ]
+      "permissions": ["POST_NOTIFICATIONS"]
     },
     "web": {
       "bundler": "metro",
@@ -40,7 +37,15 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "expo-font"
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "googleServicesFile": "./google-services.json"
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

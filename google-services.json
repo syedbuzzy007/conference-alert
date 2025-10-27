@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1073325460861",
+    "project_id": "conference-alert-81ecf",
+    "storage_bucket": "conference-alert-81ecf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1073325460861:android:fe07f5ee8981bced8b9014",
+        "android_client_info": {
+          "package_name": "com.anonymous.conferencealert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD49FXmLnkYa6T4HmJ_m2v0BO6caKbTsHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
